@@ -1,0 +1,44 @@
+@import url(./font.css);
+@import url(./normalize.css);
+
+*,h1,h2,h3,h4,h5,h6,p,a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.container {
+    width: 943px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+
+header .container {
+    border-bottom: solid 1px #828282;
+    padding: 33px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #070707;
+}
