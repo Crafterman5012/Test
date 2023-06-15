@@ -42,3 +42,74 @@ header .container {
 .menu a:hover {
     color: #070707;
 }
+
+.intro-div {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    width: 123px;
+    margin-top: 40px;
+}
+
+.ip {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    width: 170px;
+    margin-top: 95px;
+}
+
+.rotdeg {
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    transform: rotate(-90deg);
+    margin-top: 90px;
+}
+
+.rotdeg span {
+    color: #000000;
+}
+
+.intro-div img {
+    width: 100%;
+}
+
+.about {
+    background-color: #F6F6F6;
+    padding: 120px 0 107px 0;
+}
+
+.about h2 {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 18px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-top: 54px;
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about p:first-of-type {
+    margin-top: 0;
+}
+
+.about p:last-of-type {
+    width: 390px;
+}
