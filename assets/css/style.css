@@ -113,3 +113,62 @@ h1 {
 .about p:last-of-type {
     width: 390px;
 }
+
+.skills {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 91px 0 111px 0;
+}
+
+.skills h2 {
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+
+.skills p {
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    margin-bottom: 83px;
+    margin-top: 69px;
+}
+
+.appcard p {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin: 41px auto 23px auto;
+}
+
+.skills .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    padding: 112px 0 96px 0;
+}
+
+.portfolio h2 {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 47px;
+}
+
+.portfolio p {
+    margin: 45px 0 99px 0;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+.portfolio img {
+    width: 100%;
+}
