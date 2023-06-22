@@ -12,12 +12,12 @@ body {
 }
 
 .container {
-    width: 943px;
+    max-width: 943px;
     margin: 0 auto;
 }
 
 header {
-    width: 100%;
+    max-width: 100%;
 }
 
 header .container {
@@ -54,7 +54,7 @@ h1 {
     font-size: 47.3392px;
     line-height: 59px;
     color: #070707;
-    width: 123px;
+    max-width: 123px;
     margin-top: 40px;
 }
 
@@ -62,7 +62,7 @@ h1 {
     font-size: 18px;
     line-height: 22px;
     color: #070707;
-    width: 170px;
+    max-width: 170px;
     margin-top: 95px;
 }
 
@@ -79,7 +79,7 @@ h1 {
 }
 
 .intro-div img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .about {
@@ -101,7 +101,7 @@ h1 {
     text-align: center;
     color: #070707;
     margin-top: 54px;
-    width: 490px;
+    max-width: 490px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -111,7 +111,7 @@ h1 {
 }
 
 .about p:last-of-type {
-    width: 390px;
+    max-width: 390px;
 }
 
 .skills {
@@ -170,5 +170,69 @@ h1 {
 }
 
 .portfolio img {
-    width: 100%;
+    max-width: 100%;
+}
+
+footer {
+    margin: 114px 0 123px 0;
+    background-color: #FFFFFF;
+}
+
+footer h2 {
+    color: #070707;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.fp {
+    color: #070707;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 42px;
+}
+
+footer a {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 13px 30px;
+    background-color: #070707;
+    border-radius: 22px;
+    display: block;
+    max-width: fit-content;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-bottom: 86px;
+    transform: scale(1.0);
+    transition: 0.3s;
+}
+
+footer a:hover {
+    transform: scale(0.9);
+    background-color: #424242;
+}
+
+footer .container {
+    display: flex;
+    max-width: 342px;
+    margin-bottom: 46px;
+    justify-content: space-between;
+}
+
+footer img {
+    height: 100%;
+    transition: 1500ms;
+    display: inline-block;
+    cursor: pointer;
+}
+
+footer img:hover {
+    transform: rotate(359deg);
+}
+
+.ps {
+    color: #828282;
+    text-align: center;
+    font-size: 14px;
 }
