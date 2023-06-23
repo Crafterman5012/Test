@@ -43,6 +43,10 @@ header .container {
     color: #070707;
 }
 
+.burger {
+    display: none;
+}
+
 .intro-div {
     display: flex;
     justify-content: space-between;
@@ -235,4 +239,73 @@ footer img:hover {
     color: #828282;
     text-align: center;
     font-size: 14px;
+}
+
+@media (max-width: 376px) {
+    .menu {
+        display: none;
+    }
+
+    .rotdeg {
+        display: none;
+    }
+
+    .intro-div:first-of-type {
+        display: block;
+    }
+
+    .ip {
+        margin-top: 23px;
+    }
+
+    h1 {
+        margin-bottom: 0px;
+    }
+
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .skills .container {
+        flex-direction: column;
+        row-gap: 82px;
+    }
+
+    .about {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    footer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    header {
+        border: none;
+    }
+
+    .intro {
+        border: none;
+    }
+
+    header .container {
+        border: none;
+    }
+
+    .burger {
+        display: block;
+        position: fixed;
+        right: 35px;
+        top: 68px;
+        transition: 1500ms;
+        background-color: white;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .burger:hover {
+        transform: rotate(359deg);
+    }
 }
