@@ -47,6 +47,54 @@ header .container {
     display: none;
 }
 
+.burmenu {
+    display: none;
+    padding: 66px 26px;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: #FFFFFF;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+}
+
+.bur-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 394px;
+}
+
+.burmenu a:first-of-type {
+    color: #090909;
+}
+
+.burmenu a {
+    color: #828282;
+    font-size: 34px;
+    text-decoration: none;
+    display: block;
+}
+
+.bur-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.burdeg {
+    font-size: 34px;
+    color: #828282;
+    transform: rotate(-270deg);
+}
+
+.burdeg span {
+    color: #000000;
+}
+
 .intro-div {
     display: flex;
     justify-content: space-between;
